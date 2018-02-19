@@ -1,0 +1,9 @@
+<div class="col-sm-12">
+<div class="col-sm-2"><input type="text" [(ngModel)]="input"/></div>
+<div class="col-sm-1"><button  (click)="getDataFromService()" style="width:100px;height:30px;">Submit</button></div>
+</div>
+<ul *ngIf="responseData" class="list-group col-sm-12">
+   
+      <li class="list-group-item" *ngFor="let item of responseData"><b>{{item.count}}</b> <b> {{item.word}}</b></li>
+    
+</ul>
