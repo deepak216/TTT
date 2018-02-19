@@ -1,0 +1,5 @@
+#Steps to run
+
+1.Open the terminal, navigate to directory containing server.js and run node server on the terminal (server hosting on localhost://3000)
+2.Open another Terminal ,navigate to ttt folder and run npm start on the terminal.
+3.Type localhost:4200 on the browser
